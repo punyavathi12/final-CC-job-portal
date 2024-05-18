@@ -1,0 +1,79 @@
+[INFO] - May-06-2024 13:57:46 - Authentication API Development using Express JS
+[ERROR] - May-06-2024 21:21:11 - Error in DELETE /deletejobbyemp/:id: undefined
+[INFO] - May-06-2024 21:22:26 - GET /application request successful
+[WARN] - May-06-2024 21:23:51 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeid"}]
+[WARN] - May-06-2024 21:24:21 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeid"}]
+[WARN] - May-06-2024 21:37:55 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[WARN] - May-06-2024 21:48:42 - Validation errors in POST /createjobbyemp: [{"undefined":"Minimum salary must be a valid decimal number"},{"undefined":"Company name is required"}]
+[WARN] - May-06-2024 21:49:10 - Validation errors in POST /createjobbyemp: [{"undefined":"Minimum salary must be a valid decimal number"},{"undefined":"Company name is required"}]
+[WARN] - May-06-2024 21:50:06 - Validation errors in PUT /updatejobbyemp/:id: [{"undefined":"Minimum salary must be a valid decimal number"},{"undefined":"Company name is required"}]
+[WARN] - May-06-2024 22:17:39 - Validation errors in POST /createjobbyemp: [{"undefined":"Minimum salary must be a valid decimal number"},{"undefined":"Company name is required"}]
+[WARN] - May-06-2024 22:17:57 - Validation errors in PUT /updatejobbyemp/:id: [{"undefined":"Minimum salary must be a valid decimal number"},{"undefined":"Company name is required"}]
+[WARN] - May-06-2024 22:31:51 - Validation errors in POST /createjobbyemp: [{"undefined":"Minimum salary must be a valid decimal number"},{"undefined":"Company name is required"}]
+[WARN] - May-06-2024 22:33:01 - Validation errors in POST /createjobbyemp: [{"undefined":"Minimum salary must be a valid decimal number"}]
+[ERROR] - May-06-2024 22:33:32 - Error in POST /createjobbyemp: undefined
+[WARN] - May-06-2024 22:34:13 - Validation errors in PUT /updatejobbyemp/:id: [{"undefined":"Minimum salary must be a valid decimal number"},{"undefined":"Company name is required"}]
+[INFO] - May-06-2024 22:34:41 - PUT /updatejobbyemp/:id request successful
+[WARN] - May-06-2024 22:35:49 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[ERROR] - May-06-2024 22:37:21 - Error in DELETE /deletejobbyemp/:id: undefined
+[WARN] - May-06-2024 22:39:08 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[WARN] - May-06-2024 22:44:02 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[ERROR] - May-06-2024 22:51:06 - Error in GET /applicationByemp/:id: employeservices.viewApplicationById is not a function
+[ERROR] - May-06-2024 22:54:18 - Error in GET /applicationByemp/:id: employeservices.viewApplicationById is not a function
+[INFO] - May-06-2024 22:56:30 - GET /applicationByemp/:id request successful
+[INFO] - May-06-2024 22:56:40 - GET /applicationByemp/:id request successful
+[INFO] - May-07-2024 09:08:19 - GET /jobs request successful
+[INFO] - May-07-2024 09:08:32 - GET /jobs request successful
+[INFO] - May-07-2024 09:10:49 - GET /jobs request successful
+[ERROR] - May-07-2024 09:35:53 - [object Object]
+[ERROR] - May-07-2024 09:52:09 - Error in POST /createjobbyemp: undefined
+[WARN] - May-07-2024 09:54:31 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[WARN] - May-07-2024 09:54:46 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[INFO] - May-07-2024 15:21:53 - GET /jobs request successful
+[INFO] - May-07-2024 15:30:02 - GET /jobs request successful
+[INFO] - May-07-2024 15:34:35 - GET /jobs request successful
+[ERROR] - May-07-2024 15:34:35 - Error in POST /createjobbyemp: undefined
+[ERROR] - May-07-2024 15:34:35 - Error in POST /createjobbyemp: undefined
+[INFO] - May-07-2024 15:34:35 - PUT /updatejobbyemp/:id request successful
+[ERROR] - May-07-2024 15:34:35 - Error in DELETE /deletejobbyemp/:id: undefined
+[INFO] - May-07-2024 15:34:35 - GET /application request successful
+[WARN] - May-07-2024 15:34:35 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[INFO] - May-07-2024 15:38:43 - GET /jobs request successful
+[ERROR] - May-07-2024 15:38:43 - Error in POST /createjobbyemp: undefined
+[ERROR] - May-07-2024 15:38:43 - Error in POST /createjobbyemp: undefined
+[INFO] - May-07-2024 15:38:43 - PUT /updatejobbyemp/:id request successful
+[INFO] - May-07-2024 15:38:43 - PUT /updatejobbyemp/:id request successful
+[ERROR] - May-07-2024 15:38:43 - Error in DELETE /deletejobbyemp/:id: undefined
+[INFO] - May-07-2024 15:38:43 - GET /application request successful
+[WARN] - May-07-2024 15:38:43 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[INFO] - May-12-2024 21:28:27 - GET /application request successful
+[WARN] - May-12-2024 21:29:04 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[WARN] - May-12-2024 21:29:15 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[INFO] - May-12-2024 22:04:04 - GET /jobs request successful
+[ERROR] - May-12-2024 22:05:38 - Error in POST /createjobbyemp: undefined
+[INFO] - May-12-2024 22:07:51 - PUT /updatejobbyemp/:id request successful
+[ERROR] - May-12-2024 22:08:20 - Error in DELETE /deletejobbyemp/:id: undefined
+[INFO] - May-12-2024 22:09:14 - PUT /updatejobbyemp/:id request successful
+[INFO] - May-17-2024 10:19:36 - Authentication API Development using Express JS
+[ERROR] - May-17-2024 10:26:13 - [object Object]
+[ERROR] - May-17-2024 10:26:23 - [object Object]
+[ERROR] - May-17-2024 10:29:28 - [object Object]
+[INFO] - May-17-2024 10:57:47 - GET /jobs request successful
+[ERROR] - May-17-2024 11:03:55 - Error in POST /createjobbyemp: undefined
+[INFO] - May-17-2024 11:08:00 - PUT /updatejobbyemp/:id request successful
+[ERROR] - May-17-2024 11:11:17 - Error in DELETE /deletejobbyemp/:id: undefined
+[ERROR] - May-17-2024 11:11:39 - Error in DELETE /deletejobbyemp/:id: undefined
+[ERROR] - May-17-2024 11:11:57 - Error in DELETE /deletejobbyemp/:id: undefined
+[ERROR] - May-17-2024 11:12:08 - Error in DELETE /deletejobbyemp/:id: undefined
+[ERROR] - May-17-2024 11:12:10 - Error in DELETE /deletejobbyemp/:id: undefined
+[INFO] - May-17-2024 11:14:25 - GET /application request successful
+[WARN] - May-17-2024 11:15:31 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[WARN] - May-17-2024 11:17:14 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[INFO] - May-17-2024 11:38:09 - GET /application request successful
+[WARN] - May-17-2024 11:38:27 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[WARN] - May-17-2024 11:38:36 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[WARN] - May-17-2024 23:05:39 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[WARN] - May-17-2024 23:05:57 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]
+[ERROR] - May-17-2024 23:16:45 - Error in POST /createjobbyemp: undefined
+[INFO] - May-17-2024 23:18:59 - PUT /updatejobbyemp/:id request successful
+[WARN] - May-17-2024 23:19:27 - Validation errors in GET /applicationByemp/:id: [{"undefined":"Invalid employeId"}]

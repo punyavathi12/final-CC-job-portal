@@ -1,0 +1,69 @@
+
+// GET request - /emp
+router.get("/jobs", async function(req, res) {
+    let JobArray = await employeservices.getJobListingDetails();
+    console.log("[GET ALL] all jobs : " + JobArray.length);
+    res.send(JobArray);
+});
+
+// POST request - /emp
+router.post("/emp", async function(req, res) {
+    var empobj = req.body;
+        
+    let status = await employeservices.postJobListing(empobj);
+
+    console.log("[CREATE]", status);
+    res.send(status);
+});
+
+// PUT request - /emp/1000
+router.put("/emp/:id", async function(req, res) {
+    var empobj = {
+        job_id: parseInt(req.body.job_id),
+        job_title: req.body.job_title,
+        job_indusrty: req.body.job_industry,
+        description: req.body.description,
+        qualifications: req.body.qualifications,
+        application_instructions: req.body.application_instructions,
+        created_by: req.body.created_by,
+        location: req.body.location,
+        min_salary: req.body.min_salary,
+        max_salary: req.body.max_salary,
+        company_name: req.body.company_name,
+        job_status: req.body.job_status
+    };
+
+    let status = await employeservices.updateJobListing(empobj);
+    
+    console.log("[UPDATE]", status);
+    res.send(status);
+});
+
+// DELETE request - /emp/1008
+router.delete("/emp/:id", async function(req, res) {
+    var {id} =  req.params;
+
+    let status = await employeservices.deleteJobListing(id);
+    console.log(status);
+
+    console.log("[DELETE]  This is delete request to delete selected emp : " + id);
+    res.send(status);
+});
+
+// GET request - /application
+router.get("/application", async function(req, res) {
+    let emparray = await employeservices.viewAllJobListing();
+    console.log("[GET ALL] No. of applications : " + emparray.length);
+    res.send(emparray);
+});
+
+// GET request - /emp/1003
+router.get("/emp/:id", async function(req, res) {
+    var {id} =  req.params;
+    let empobj = await employeservices.viewJobListing(id);
+
+    console.log("[GET BY ID]", empobj);
+    res.send(empobj);     
+});
+
+module.exports = router;
